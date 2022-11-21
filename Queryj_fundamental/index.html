@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>learn jquery</h2>
+    <button class="hide_btn">hide</button>
+    <button class="show_btn">show</button>
+
+ <script src="js/jquery.min.js"></script>
+ <script>
+    // $('h2').show()
+    $(document).ready(function(){
+        $('.hide_btn').click(function(){
+        $('h2').hide()
+    })
+    })
+    $(document).ready(function(){
+        $('.show_btn').click(function(){
+        $('h2').show()
+    })
+    })
+   
+ </script>
+</body>
+</html>
